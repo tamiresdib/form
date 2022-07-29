@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #8e81c5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1em;
+   
+}
+
+#titulo {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    margin-bottom: 0.4em;
+    margin-top: 20px;
+    margin-left: 90px;
+      
+}
+
+.container{
+    width: 20%;
+    height: 55vh;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    background-image: linear-gradient(295deg, #ffd2ff 0, #e8b9ff 25%, #b99df2 50%, #8e81c5 75%, #6b679c 100%);
+    border-radius: 10px;
+}
+
+.container h1::after{
+    content: '';
+    display: block;
+    width:4.5rem;
+    height: 0.3rem;
+    background-color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0.2em;
+    padding: 0.4rem;
+
+}
+
+.grupo{
+    margin-left: 45px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: aliceblue;
+    font-weight: 100;
+    margin-bottom: 1em;
+    display: block;
+    
+}
+
+.grupo ::-webkit-input-placeholder{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 100;
+}
+
+.botao button {
+    width: 80%;
+    border: none;
+    background-color: #8e81c5;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 9%;
+    color: aliceblue;
+
+}
+
+.botao button:hover {
+    background-color: #6b679c;
+}
+
+.botao button a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+
+   
+
+
+
